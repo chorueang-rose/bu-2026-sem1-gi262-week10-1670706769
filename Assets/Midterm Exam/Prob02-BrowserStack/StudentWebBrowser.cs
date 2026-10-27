@@ -12,8 +12,11 @@ namespace MidtermExam.Prob02
     {
         // ประวัติหน้าที่สามารถย้อนกลับได้: หน้าบนสุดคือหน้าที่ Back() จะเปิดถัดไป
         private Stack<string> backHistory = new Stack<string>();
+        
+
         // ประวัติหน้าที่สามารถไปข้างหน้าได้: หน้าบนสุดคือหน้าที่ Forward() จะเปิดถัดไป
         private Stack<string> forwardHistory = new Stack<string>();
+        
         // หน้าที่กำลังเปิดอยู่ แยกจากทั้งสอง Stack; ข้อความว่างหมายถึงยังไม่เคยเปิดหน้าเว็บ
         private string currentUrl = string.Empty;
 
@@ -29,8 +32,7 @@ namespace MidtermExam.Prob02
         /// </remarks>
         public void Open(string url)
         {
-            // TODO: เขียนคำตอบแทนคำสั่ง throw exception ด้านล่าง
-            throw new NotImplementedException();
+           
         }
 
         /// <summary>ย้อนกลับไปยังหน้าล่าสุดในประวัติย้อนกลับหนึ่งขั้น</summary>
@@ -40,8 +42,7 @@ namespace MidtermExam.Prob02
         /// </remarks>
         public void Back()
         {
-            // TODO: เขียนคำตอบแทนคำสั่ง throw exception ด้านล่าง
-            throw new NotImplementedException();
+            
         }
 
         /// <summary>ไปข้างหน้าไปยังหน้าล่าสุดในประวัติไปข้างหน้าหนึ่งขั้น</summary>
